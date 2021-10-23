@@ -1,8 +1,29 @@
 /* game board table */
+body {
+  background-image: url("https://media.giphy.com/media/3oGRFkmoqoui9nzL2g/giphy.gif");
+  background-size: cover;
+}
+
+
 #board{
-  margin-left: auto;
-  margin-right: auto;
-  top: 50%
+  position:absolute; 
+  height: 500px;
+  width: 500px;
+  margin-left: -250px;
+  margin-top: -250px;
+  top: 50%;
+  left: 50%;
+ 
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Zen Maru Gothic', sans-serif;
+  color: white;
+  font-size: 3em;
+  padding: 0;
+  margin: 0;
 }
 
 #board td {
